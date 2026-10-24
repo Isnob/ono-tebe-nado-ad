@@ -155,8 +155,7 @@
   padding: 0 24px;
 }
 
-.lots__heading,
-.about__title {
+.section-title {
   font-size: 40px;
   font-weight: 700;
   line-height: 1.175;
