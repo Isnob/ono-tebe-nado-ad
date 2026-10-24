@@ -153,3 +153,92 @@
 .bet-button:active {
   opacity: 0.7;
 }
+
+/* Секция lots (лоты) */
+
+.lots {
+  margin-top: 180px;
+  padding: 0 24px;
+}
+
+.lots__heading {
+  padding-left: 40px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1.175;
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.lots__card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+.lots__card-list-item {
+  width: 334px;
+  min-height: 596px;
+  flex-grow: 1;
+}
+
+.card-link {
+  display: block;
+  height: 100%;
+  text-decoration: none;
+}
+
+.card {
+  position: relative;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.card_type_film {
+  background-image: url('../images/card-lot-01.jpg');
+}
+
+.card_type_book {
+  background-image: url('../images/card-lot-02.jpg');
+}
+
+.card_type_picture {
+  background-image: url('../images/card-lot-03.jpg');
+}
+
+.card__title {
+  position: relative;
+  z-index: 1;
+  padding: 48px 40px 0;
+  color: #ffffff;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-transform: uppercase;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.card__text {
+  position: relative;
+  z-index: 1;
+  padding: 0 40px 48px;
+  color: #ffffff;
+  font-size: 20px;
+  line-height: 1.2;
+}
+
+.lots__look-more-link {
+  display: inline-block;
+  padding-left: 40px;
+  font-size: 20px;
+  line-height: 1.17;
+  text-underline-offset: 4px;
+}
