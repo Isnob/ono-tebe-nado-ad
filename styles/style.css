@@ -2,7 +2,8 @@
   display: grid;
   grid-template-columns: 1fr min-content 1fr;
   align-items: center;
-  padding: 92px 50px 96px;
+  min-height: 293px;
+  padding: 0 50px;
 }
 
 .header__menu {
@@ -59,6 +60,7 @@
 
 .header__address {
   justify-self: end;
+  width: 240px;
 }
 
 /* ==========================================================================
@@ -123,7 +125,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 106px;
+  margin-top: 101px;
 }
 
 .cover__description-text {
@@ -183,7 +185,7 @@
   flex-wrap: wrap;
   gap: 25px;
   list-style: none;
-  margin-bottom: 30px;
+  margin-bottom: 33px;
 }
 
 .lots__card-list-item {
